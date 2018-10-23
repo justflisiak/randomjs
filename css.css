@@ -1,0 +1,16 @@
+#myHero{
+    height: 200px;
+    width: 50px;
+    background-color: blue;
+}
+
+.heroDies{
+    animation: killHero 1s forwards;
+}
+
+@keyframes killHero{
+    to{
+        background-color: red;
+        transform: rotate(90deg);
+    }
+}
